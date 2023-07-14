@@ -4,7 +4,6 @@ function App() {
   return (
     <>
       <div className="container">start here</div>
-      <div className="container">start here</div>
     </>
   );
 }
