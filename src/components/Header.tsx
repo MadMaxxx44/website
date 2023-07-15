@@ -1,5 +1,4 @@
 // import React from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,18 +8,18 @@ const Header = () => {
         <div className="header__logo-overlay"></div>
       </div>
       <ul className="header__menu">
-        <Link to="/menu">
-          <li>Menu</li>
-        </Link>
-        <Link to="/food">
-          <li>Food</li>
-        </Link>
-        <Link to="/services">
-          <li>Services</li>
-        </Link>
-        <Link to="/about-us">
-          <li>About Us</li>
-        </Link>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About Us</a>
+        </li>
         <li>
           <img src="./src/assets/sushi_assets/assets/search.svg" alt="search" />
         </li>
