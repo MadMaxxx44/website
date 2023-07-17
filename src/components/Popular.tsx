@@ -12,8 +12,13 @@ import arrowRight from "../assets/sushi_assets/assets/arrow-right.svg";
 const Popular = () => {
   return (
     <section className="popular-foods" id="menu">
-      <h2 className="popular-foods__title">Popular Food / 人気</h2>
-      <div className="popular-foods__filters sushi__hide-scrollbar">
+      <h2 className="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人気
+      </h2>
+      <div
+        className="popular-foods__filters sushi__hide-scrollbar"
+        data-aos="fade-up"
+      >
         <button className="popular-foods__filter-btn active">All</button>
         <button className="popular-foods__filter-btn">
           <img src={sushiNine} alt="sushi 9" /> Sushi
@@ -29,7 +34,7 @@ const Popular = () => {
         </button>
         <button className="popular-foods__filter-btn">All</button>
       </div>
-      <div className="popular-foods__catalogue">
+      <div className="popular-foods__catalogue" data-aos="fade-up">
         <div className="popular-foods__card">
           <img
             className="popular-foods__card-image"

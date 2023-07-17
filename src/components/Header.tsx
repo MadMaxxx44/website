@@ -1,13 +1,11 @@
-// import React from "react";
-
 const Header = () => {
   return (
     <nav className="header__nav">
       <div className="header__logo">
-        <h4>Sushiman</h4>
+        <h4 data-aos="fade-down">Sushiman</h4>
         <div className="header__logo-overlay"></div>
       </div>
-      <ul className="header__menu">
+      <ul className="dd" data-aos="fade-down">
         <li>
           <a href="#menu">Menu</a>
         </li>
@@ -25,7 +23,7 @@ const Header = () => {
         </li>
       </ul>
 
-      <ul className="header__menu-mobile">
+      <ul className="header__menu-mobile" data-aos="fade-down">
         <li>
           <img src="./src/assets/sushi_assets/assets/menu.svg" alt="menu" />
         </li>

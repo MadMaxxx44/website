@@ -4,6 +4,13 @@ import App from "./App.tsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Menu from "./pages/Menu.tsx";
 // import AboutUs from "./pages/AboutUs.tsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <BrowserRouter>

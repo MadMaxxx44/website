@@ -8,17 +8,17 @@ const AboutUs = () => {
     <section className="about-us" id="about-us">
       <div className="about-us__image">
         <div className="about-us__image-sushi3">
-          <img src={sushi} alt="sushi" />
+          <img src={sushi} alt="sushi" data-aos="fade-right" />
         </div>
         <button className="about-us__button">
           Learn More
           <img src={arrowUpRight} alt="learn more" />
         </button>
         <div className="about-us__image-sushi2">
-          <img src={sushiTwo} alt="sushi2" />
+          <img src={sushiTwo} alt="sushi2" data-aos="fade-right" />
         </div>
       </div>
-      <div className="about-us__content">
+      <div className="about-us__content" data-aos="fade-left">
         <p className="sushi__subtitle">About Us / 私たちに関しては</p>
         <h3 className="sushi__title">
           Our mission is to bring true Japanese flavours to you.
