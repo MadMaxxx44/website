@@ -1,3 +1,5 @@
+import search from "../assets/sushi_assets/assets/search.svg";
+
 const Header = () => {
   return (
     <nav className="header__nav">
@@ -19,7 +21,7 @@ const Header = () => {
           <a href="#about-us">About Us</a>
         </li>
         <li>
-          <img src="./src/assets/sushi_assets/assets/search.svg" alt="search" />
+          <img src={search} alt="search" />
         </li>
       </ul>
 
