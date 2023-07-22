@@ -5,7 +5,7 @@ const Header = () => {
         <h4 data-aos="fade-down">Sushiman</h4>
         <div className="header__logo-overlay"></div>
       </div>
-      <ul className="dd" data-aos="fade-down">
+      <ul className="header__menu" data-aos="fade-down">
         <li>
           <a href="#menu">Menu</a>
         </li>
